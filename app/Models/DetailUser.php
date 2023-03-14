@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class DetailUser extends Model
 {
-    // use HasFactory;
+
     use SoftDeletes;
 
     public $table = 'detail_user';

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ExperienceUser extends Model
 {
-    // use HasFactory;
+
     use SoftDeletes;
 
     public $table = 'experience_user';
