@@ -16,7 +16,7 @@ class DetailUserTableSeeder extends Seeder
     {
         $detail_user = [
             [
-                'user_id'          => 1,
+                'users_id'          => 1,
                 'photo'            => '',
                 'role'             =>  'Website Developer',
                 'contact_number'   =>  '',
@@ -25,7 +25,7 @@ class DetailUserTableSeeder extends Seeder
                 'updated_at'       =>  date("Y-m-d h:i:s"),
             ],
             [
-                'user_id'          => 2,
+                'users_id'          => 2,
                 'photo'            => '',
                 'role'             =>  'Front End Developer',
                 'contact_number'   =>  '',

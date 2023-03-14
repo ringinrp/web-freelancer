@@ -17,22 +17,22 @@ class OrderStatusTableSeeder extends Seeder
     {
         $order_status = [
             [
-                'user_id'          =>  'Approved',
+                'name'          =>  'Approved',
                 'created_at'       =>  date("Y-m-d h:i:s"),
                 'updated_at'       =>  date("Y-m-d h:i:s"),
             ],
             [
-                'user_id'          =>  'Progress',
+                'name'          =>  'Progress',
                 'created_at'       =>  date("Y-m-d h:i:s"),
                 'updated_at'       =>  date("Y-m-d h:i:s"),
             ],
             [
-                'user_id'          =>  'Rejected',
+                'name'          =>  'Rejected',
                 'created_at'       =>  date("Y-m-d h:i:s"),
                 'updated_at'       =>  date("Y-m-d h:i:s"),
             ],
             [
-                'user_id'          =>  'Waiting',
+                'name'          =>  'Waiting',
                 'created_at'       =>  date("Y-m-d h:i:s"),
                 'updated_at'       =>  date("Y-m-d h:i:s"),
             ],
